@@ -1,0 +1,28 @@
+.title {
+  font-size: 3rem;
+}
+
+.task-input-body {
+  padding: 1rem 0;
+  display: flex;
+  .task-input {
+    border-width: 1px;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    flex-grow: 1;
+  }
+
+  .add-btn {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 4px;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 1rem;
+  }
+}

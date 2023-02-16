@@ -1,0 +1,45 @@
+.title {
+  font-size: 3rem;
+}
+
+.task-list-body {
+  display: flex;
+  margin-top: 1.5rem;
+  align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.task-check {
+  flex: 0 0 10%;
+  max-width: 10%;
+  height: 2rem;
+}
+
+.task-content {
+  flex: 0 0 70%;
+  max-width: 70%;
+  font-size: 1.5rem;
+  color: #383f50;
+
+  &.task-content-done {
+    text-decoration: line-through;
+    color: #b2b7bb;
+  }
+}
+
+.action {
+  display: flex;
+  justify-content: space-around;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.task-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3rem;
+}
