@@ -34,7 +34,6 @@ function TaskInput(props: typeTaskInput) {
       setName('')
     }
   }
-  console.log(name)
   return (
     <form onSubmit={handleSubmit} className={cx('task-input-container')}>
       <h2 className={cx('title')}>Todo List App</h2>
